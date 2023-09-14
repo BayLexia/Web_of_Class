@@ -1,0 +1,43 @@
+@charset "utf-8";
+.box{
+	position:relative;
+	line-height: 160%;
+	margin: 6px;
+}
+
+.i_label{
+	position: absolute;
+	left: 0px;
+	width: 90px;
+	line-height: 160%;
+}
+
+.i_text{
+	position: relative;
+	left: 95px;
+	width: 200px;
+	line-height: 160%;
+}
+
+.banner{
+	position: relative;
+	background: url(注册背景.jpg) no-repeat 0 50px;
+	margin: 0 auto;
+	width: 1024px;
+	height: 626px;
+}
+
+.aside{
+	position: absolute;
+	left: 60%;
+	top: 120px;
+	width: 400px;
+	padding: 20px;
+	background: rgb(252, 252, 252);
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+}
+
+body{
+	background: rgb(92, 156, 252);
+}
